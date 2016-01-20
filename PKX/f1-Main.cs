@@ -4086,9 +4086,11 @@ namespace PKHeX
                     TB_MetLevel.Text = "20";
 
                 }
-                if (species == "Mankey") //056
+                if (species == "Mankey" || specied == "Primape") //056 057
                 {
                     CB_GameOrigin.Text = "OR";
+                    CB_MetLocation.Text = "Jagged Pass";
+                    TB_MetLevel.Text = "21";
 
                 }
 
