@@ -3976,7 +3976,7 @@ namespace PKHeX
         {
             string species;
             species = CB_Species.Text;
-            if (species == "Bulbasaur" || species == "Ivysaur" || species == "Venusaur" || species == "Charmander" || species == "Charmeleon" || species == "Charizard" || species == "Squirtle" || species == "Wartortle" || species == "Blastoise" || species == "Caterpie" || species == "Metapod" || species == "Butterfree" || species == "Weedle" || species == "Pidgeot" || species == "Spearow" || species == "Fearow" || species == "Ekans" || species == "Arbok" || species== "Nidoran♀" || species == "Nidorina" || species == "Nidoqueen" || species == "Nidoran♂" || species == "Nidorino" || species == "Nidoking" || species == "Venonat" || species == "Meowth" || species == "Poliwag" || species == "Poliwhirl" || species == "Poliwrath") //001 002 003 //004 005 006 //007 008 009 //010 011 012 //013 //016 //021 022 //023 024 //029 030 031 //032 033 034 //048 //052 //060 061 062
+            if (species == "Bulbasaur" || species == "Ivysaur" || species == "Venusaur" || species == "Charmander" || species == "Charmeleon" || species == "Charizard" || species == "Squirtle" || species == "Wartortle" || species == "Blastoise" || species == "Caterpie" || species == "Metapod" || species == "Butterfree" || species == "Weedle" || species == "Pidgeot" || species == "Spearow" || species == "Fearow" || species == "Ekans" || species == "Arbok" || species== "Nidoran♀" || species == "Nidorina" || species == "Nidoqueen" || species == "Nidoran♂" || species == "Nidorino" || species == "Nidoking" || species == "Venonat" || species == "Meowth" || species == "Poliwag" || species == "Poliwhirl" || species == "Poliwrath" || species == "Bellsprout" || species == "Weepinbell" || species == "Victreebel") //001 002 003 //004 005 006 //007 008 009 //010 011 012 //013 //016 //021 022 //023 024 //029 030 031 //032 033 034 //048 //052 //060 061 062 //069 070 071
             {
                 MessageBox.Show("Doesn't exist in target game.");
             }
@@ -4112,6 +4112,13 @@ namespace PKHeX
                     CB_GameOrigin.Text = "OR";
                     CB_MetLocation.Text = "Route 112";
                     TB_MetLevel.Text = "8";
+
+                }
+                if (species == "Tentacool" || species == "Tentacruel") //072 073 //Note that Tentacruel can also be found in the wild
+                {
+                    CB_GameOrigin.Text = "OR";
+                    CB_MetLocation.Text = "Route 120";
+                    TB_MetLevel.Text = "5";
 
                 }
 
