@@ -21,7 +21,7 @@ The interface is translatable with resource/external text files so that differen
 
 ## Screenshots
 
-![Main Window](http://i.snag.gy/dGdB4.jpg?raw=true)
+![Main Window](https://raw.githubusercontent.com/gnmmarechal/PKHeX_gnmmarechal/master/screen.png)
 
 ### License
 
