@@ -1,7 +1,11 @@
-PKHeX
+PKHeX: Gnmmarechal's Edition
 =====
 
-Pokémon X/Y/OR/AS SAV/PKX file editor, programmed in [C#](https://en.wikipedia.org/wiki/C_Sharp_%28programming_language%29).
+Pokémon X/Y/OR/AS SAV/PKX Editor based on PKHeX (https://github.com/kwsch/PKHeX)
+
+Supports Legality Checker (WIP):
+* Automatically fills location and met level of Pokémon (WIP)
+* Checks legal moves (Planned)
 
 Supports binary file loading of:
 * Decrypted Save files (1MB/Cyber Save 0x65600/0x76000 Bytes)
@@ -21,11 +25,11 @@ The interface is translatable with resource/external text files so that differen
 
 ### License
 
-PKHeX is licensed under GPLv3. Refer to LICENSE.md for more information.
+PKHeX: Gnmmarechal's Edition is licensed under GPLv3. Refer to LICENSE.md for more information.
 
 ## Building
 
-PKHeX can be compiled with any C# compiler.
+PKHeX: Gnmmarechal's Edition can be compiled with any C# compiler.
 
 ### IDE
 
