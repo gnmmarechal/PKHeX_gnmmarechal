@@ -4100,11 +4100,18 @@ namespace PKHeX
                     TB_MetLevel.Text = "31";
 
                 }
-                if (species == "Abra") //063
+                if (species == "Abra" || species == "Kadabra" || species == "Alakazam") //063 064 065
                 {
                     CB_GameOrigin.Text = "OR";
                     CB_MetLocation.Text = "Granite Cave";
                     TB_MetLevel.Text = "10";
+
+                }
+                if (species == "Machop" || species == "Machoke" || species == "Machamp") //066 067 068
+                {
+                    CB_GameOrigin.Text = "OR";
+                    CB_MetLocation.Text = "Route 112";
+                    TB_MetLevel.Text = "8";
 
                 }
 
