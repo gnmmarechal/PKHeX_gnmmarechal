@@ -4100,7 +4100,7 @@ namespace PKHeX
                     TB_MetLevel.Text = "31";
 
                 }
-                if (species == "Abra) //063
+                if (species == "Abra") //063
                 {
                     CB_GameOrigin.Text = "OR";
                     CB_MetLocation.Text = "Granite Cave";
