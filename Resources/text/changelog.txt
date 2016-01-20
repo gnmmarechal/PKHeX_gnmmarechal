@@ -1,0 +1,28 @@
+﻿PKHeX: Gnmmarechal's Edition - By gnmmarechal
+http://battlefrontdice.com
+http://youtube.com/gnmpolicemata
+
+
+A custom PKHeX build with extra functions I (gnmmarechal) personally wanted.
+Credits for the original PKHeX: Kaphotics
+http://projectpokemon.org/
+http://projectpokemon.org/forums/showthread.php?36986
+
+Notes: The original PKHeX creator uses MM/DD/YYYY to number his updates, 
+while I use DD/MM/YYYY.
+
+06/09/2015: Initial Custom Build
+********************************
+
+Based on PKHeX 06/09/2015 (MMDDYYYY)
+Added Button to automatically set perfect IVs (cuz it bores me to hit CTRL :D)
+Click on HP/DEF/ATK/etc to max IVs.
+Click on "Finish up" to reroll encryption constant and PID.
+Save/Load OT Information (except gender, please set it manually)
+Added a link to Bulbapedia (So you can check legality :D)
+Added a "Egg Met" button.
+Added a Location Fixer (WIP)
+Added a Today button to the date picker.
+NOTE: Many of these features are already available on the default PkHex. 
+However, I personally prefer having a button to do them for me.
+
