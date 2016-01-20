@@ -17,5 +17,11 @@
     <Setting Name="GenderClr" Type="System.String" Scope="User">
       <Value Profile="(Default)" />
     </Setting>
+    <Setting Name="build" Type="System.String" Scope="User">
+      <Value Profile="(Default)">20012016</Value>
+    </Setting>
+    <Setting Name="release" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Nightly</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

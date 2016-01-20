@@ -66,9 +66,9 @@
             this.L_Thanks.AutoSize = true;
             this.L_Thanks.Location = new System.Drawing.Point(12, 345);
             this.L_Thanks.Name = "L_Thanks";
-            this.L_Thanks.Size = new System.Drawing.Size(162, 13);
+            this.L_Thanks.Size = new System.Drawing.Size(167, 13);
             this.L_Thanks.TabIndex = 2;
-            this.L_Thanks.Text = "Thanks to the original developer!";
+            this.L_Thanks.Text = "Thanks to the original developers!";
             // 
             // B_Shortcuts
             // 

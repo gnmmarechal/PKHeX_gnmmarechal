@@ -3928,7 +3928,7 @@ namespace PKHeX
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            this.Text = this.Text + "  -  " + Properties.Settings.Default.release + " Build : " + Properties.Settings.Default.build;
         }
 
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)
