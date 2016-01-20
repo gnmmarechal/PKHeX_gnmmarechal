@@ -3976,7 +3976,7 @@ namespace PKHeX
         {
             string species;
             species = CB_Species.Text;
-            if (species == "Bulbasaur" || species == "Ivysaur" || species == "Venusaur" || species == "Charmander" || species == "Charmeleon" || species == "Charizard" || species == "Squirtle" || species == "Wartortle" || species == "Blastoise" || species == "Caterpie" || species == "Metapod" || species == "Butterfree" || species == "Weedle" || species == "Pidgeot" || species == "Spearow" || species == "Fearow" || species == "Ekans" || species == "Arbok" || species== "Nidoran♀" || species == "Nidorina" || species == "Nidoqueen" || species == "Nidoran♂" || species == "Nidorino" || species == "Nidoking" || species == "Venonat" || species == "Meowth") //001 002 003 //004 005 006 //007 008 009 //010 011 012 //013 //016 //021 022 //023 024 //029 030 031 //032 033 034 //048 //052
+            if (species == "Bulbasaur" || species == "Ivysaur" || species == "Venusaur" || species == "Charmander" || species == "Charmeleon" || species == "Charizard" || species == "Squirtle" || species == "Wartortle" || species == "Blastoise" || species == "Caterpie" || species == "Metapod" || species == "Butterfree" || species == "Weedle" || species == "Pidgeot" || species == "Spearow" || species == "Fearow" || species == "Ekans" || species == "Arbok" || species== "Nidoran♀" || species == "Nidorina" || species == "Nidoqueen" || species == "Nidoran♂" || species == "Nidorino" || species == "Nidoking" || species == "Venonat" || species == "Meowth" || species == "Poliwag" || species == "Poliwhirl" || species == "Poliwrath") //001 002 003 //004 005 006 //007 008 009 //010 011 012 //013 //016 //021 022 //023 024 //029 030 031 //032 033 034 //048 //052 //060 061 062
             {
                 MessageBox.Show("Doesn't exist in target game.");
             }
@@ -4084,6 +4084,20 @@ namespace PKHeX
                     CB_GameOrigin.Text = "OR";
                     CB_MetLocation.Text = "Safari Zone";
                     TB_MetLevel.Text = "20";
+
+                }
+                if (species == "Mankey" || specied == "Primape") //056 057
+                {
+                    CB_GameOrigin.Text = "OR";
+                    CB_MetLocation.Text = "Jagged Pass";
+                    TB_MetLevel.Text = "21";
+
+                }
+                if (species == "Growlithe" || species == "Arcanine") //058 059
+                {
+                    CB_GameOrigin.Text = "OR";
+                    CB_MetLocation.Text = "Mt. Pyre";
+                    TB_MetLevel.Text = "31";
 
                 }
                 if (species == "Mankey" || specied == "Primape") //056 057
