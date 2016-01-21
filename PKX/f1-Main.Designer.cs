@@ -77,6 +77,7 @@
             this.MT_Level = new System.Windows.Forms.MaskedTextBox();
             this.DEV_Ability = new System.Windows.Forms.ComboBox();
             this.Tab_Met = new System.Windows.Forms.TabPage();
+            this.button4 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -349,7 +350,6 @@
             this.dragout = new System.Windows.Forms.PictureBox();
             this.L_QR = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.button4 = new System.Windows.Forms.Button();
             this.tabMain.SuspendLayout();
             this.Tab_Main.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Label_IsShiny)).BeginInit();
@@ -1039,6 +1039,15 @@
             this.Tab_Met.Text = "Met";
             this.Tab_Met.UseVisualStyleBackColor = true;
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(162, 200);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 13;
+            this.button4.Text = "Egg Met";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -1260,6 +1269,7 @@
             this.CAL_MetDate.Size = new System.Drawing.Size(122, 20);
             this.CAL_MetDate.TabIndex = 5;
             this.CAL_MetDate.Value = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
+            this.CAL_MetDate.ValueChanged += new System.EventHandler(this.CAL_MetDate_ValueChanged);
             // 
             // CB_EncounterType
             // 
@@ -4201,15 +4211,6 @@
             this.L_QR.Text = "QR!";
             this.L_QR.Visible = false;
             this.L_QR.Click += new System.EventHandler(this.clickQR);
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(162, 200);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 13;
-            this.button4.Text = "Egg Met";
-            this.button4.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 

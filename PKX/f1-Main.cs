@@ -3929,6 +3929,7 @@ namespace PKHeX
         private void Form1_Load(object sender, EventArgs e)
         {
             this.Text = this.Text + "  -  " + Properties.Settings.Default.release + " Build : " + Properties.Settings.Default.build;
+            CAL_MetDate.Value = CAL_EggDate.Value = DateTime.Today;
         }
 
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)
@@ -4125,6 +4126,11 @@ namespace PKHeX
                 CAL_MetDate.Value = DateTime.Today;
 
             }
+        }
+
+        private void CAL_MetDate_ValueChanged(object sender, EventArgs e)
+        {
+
         }
 
         private void openBulbapediaToolStripMenuItem_Click(object sender, EventArgs e)
