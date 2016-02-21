@@ -3962,8 +3962,11 @@ namespace PKHeX
             CB_EggLocation.Text = "Day Care helpers";
             CAL_MetDate.Value = DateTime.Today;
             CAL_EggDate.Value = DateTime.Today.AddDays(-1);
+            if (GB_EggConditions.Enabled != true)
+            {
+                GB_EggConditions.Enabled = true;
+            }
 
-           
 
 
         }
@@ -4129,6 +4132,26 @@ namespace PKHeX
         }
 
         private void CAL_MetDate_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            CB_GameOrigin.Text = "OR";
+            CB_MetLocation.Text = "Route 101";
+            TB_MetLevel.Text = "1";
+            CHK_AsEgg.Checked = true;
+            CB_EggLocation.Text = "Day Care helpers";
+            CAL_MetDate.Value = DateTime.Today;
+            CAL_EggDate.Value = DateTime.Today.AddDays(-1);
+            if (GB_EggConditions.Enabled != true)
+            {
+                GB_EggConditions.Enabled = true;
+            }
+        }
+
+        private void GB_EggConditions_Enter(object sender, EventArgs e)
         {
 
         }

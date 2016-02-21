@@ -1047,6 +1047,7 @@
             this.button4.TabIndex = 13;
             this.button4.Text = "Egg Met";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // label1
             // 
@@ -1111,6 +1112,7 @@
             this.GB_EggConditions.TabIndex = 9;
             this.GB_EggConditions.TabStop = false;
             this.GB_EggConditions.Text = "Egg Met Conditions";
+            this.GB_EggConditions.Enter += new System.EventHandler(this.GB_EggConditions_Enter);
             // 
             // CB_EggLocation
             // 
@@ -2804,7 +2806,7 @@
             // eggToolStripMenuItem
             // 
             this.eggToolStripMenuItem.Name = "eggToolStripMenuItem";
-            this.eggToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
+            this.eggToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.eggToolStripMenuItem.Text = "Egg";
             this.eggToolStripMenuItem.Click += new System.EventHandler(this.eggToolStripMenuItem_Click);
             // 
@@ -2814,7 +2816,7 @@
             this.oRASToolStripMenuItem,
             this.xYToolStripMenuItem});
             this.locationFixerToolStripMenuItem.Name = "locationFixerToolStripMenuItem";
-            this.locationFixerToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
+            this.locationFixerToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.locationFixerToolStripMenuItem.Text = "Location Fixer";
             // 
             // oRASToolStripMenuItem
