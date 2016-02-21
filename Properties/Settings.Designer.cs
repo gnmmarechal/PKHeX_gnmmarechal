@@ -85,7 +85,7 @@ namespace PKHeX.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("21012016")]
+        [global::System.Configuration.DefaultSettingValueAttribute("21022016")]
         public string build {
             get {
                 return ((string)(this["build"]));

@@ -18,7 +18,7 @@
       <Value Profile="(Default)" />
     </Setting>
     <Setting Name="build" Type="System.String" Scope="User">
-      <Value Profile="(Default)">21012016</Value>
+      <Value Profile="(Default)">21022016</Value>
     </Setting>
     <Setting Name="release" Type="System.String" Scope="User">
       <Value Profile="(Default)">Nightly</Value>
