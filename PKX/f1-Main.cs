@@ -4177,6 +4177,20 @@ namespace PKHeX
                     CB_MetLocation.Text = "Shoal Cave";
                     TB_MetLevel.Text = "34";
                 }
+                if (species == "Grimer" || species == "Muk") //088 089 //I could have used level 15 for both. I didn't want to.
+                {
+                    if (CB_GameOrigin.Text == "AS")
+                    {
+                        TB_MetLevel.Text = "14";
+
+                    }
+                    else
+                    {
+                        CB_GameOrigin.Text = "OR";
+                        TB_MetLevel.Text = "15";
+                    }
+                    CB_MetLocation.Text = "Fiery Path";
+                }
 
                 CAL_MetDate.Value = DateTime.Today;
 
