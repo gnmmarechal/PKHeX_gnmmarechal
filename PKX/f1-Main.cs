@@ -3986,7 +3986,7 @@ namespace PKHeX
             }
             else
             {
-                if (species == "something") //Second one, cuz the other one was too larger already //
+                if (species == "Drowzee") //Second one, cuz the other one was too larger already //096
                 {
                     MessageBox.Show("Doesn't exist as a wild Pokémon in target game.");
                 }
@@ -4203,6 +4203,26 @@ namespace PKHeX
                         CB_MetLocation.Text = "Granite Cave";
                         TB_MetLevel.Text = "12";
                     }
+                    if (species == "Hypno") //097
+                    {
+                        CB_GameOrigin.Text = "OR";
+                        CB_MetLocation.Text = "Route 121";
+                        TB_MetLevel.Text = "30";
+                    }
+                    if (species == "Krabby" || species == "Kingler") //098 099
+                    {
+                        CB_GameOrigin.Text = "OR";
+                        CB_MetLocation.Text = "Route 105";
+                        TB_MetLevel.Text = "25";
+                    }
+                    if (species == "Voltorb") //100
+                    {
+                        CB_GameOrigin.Text = "OR";
+                        CB_MetLocation.Text = "Route 110";
+                        TB_MetLevel.Text = "13";
+
+                    }
+
 
                     CAL_MetDate.Value = DateTime.Today;
 
