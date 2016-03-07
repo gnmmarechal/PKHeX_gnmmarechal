@@ -3980,7 +3980,7 @@ namespace PKHeX
         {
             string species;
             species = CB_Species.Text;
-            if (species == "Bulbasaur" || species == "Ivysaur" || species == "Venusaur" || species == "Charmander" || species == "Charmeleon" || species == "Charizard" || species == "Squirtle" || species == "Wartortle" || species == "Blastoise" || species == "Caterpie" || species == "Metapod" || species == "Butterfree" || species == "Weedle" || species == "Pidgeot" || species == "Spearow" || species == "Fearow" || species == "Ekans" || species == "Arbok" || species== "Nidoran♀" || species == "Nidorina" || species == "Nidoqueen" || species == "Nidoran♂" || species == "Nidorino" || species == "Nidoking" || species == "Venonat" || species == "Meowth" || species == "Poliwag" || species == "Poliwhirl" || species == "Poliwrath" || species == "Bellsprout" || species == "Weepinbell" || species == "Victreebel") //001 002 003 //004 005 006 //007 008 009 //010 011 012 //013 //016 //021 022 //023 024 //029 030 031 //032 033 034 //048 //052 //060 061 062 //069 070 071
+            if (species == "Bulbasaur" || species == "Ivysaur" || species == "Venusaur" || species == "Charmander" || species == "Charmeleon" || species == "Charizard" || species == "Squirtle" || species == "Wartortle" || species == "Blastoise" || species == "Caterpie" || species == "Metapod" || species == "Butterfree" || species == "Weedle" || species == "Pidgeot" || species == "Spearow" || species == "Fearow" || species == "Ekans" || species == "Arbok" || species== "Nidoran♀" || species == "Nidorina" || species == "Nidoqueen" || species == "Nidoran♂" || species == "Nidorino" || species == "Nidoking" || species == "Venonat" || species == "Meowth" || species == "Poliwag" || species == "Poliwhirl" || species == "Poliwrath" || species == "Bellsprout" || species == "Weepinbell" || species == "Victreebel" || species == "Farfetch'd") //001 002 003 //004 005 006 //007 008 009 //010 011 012 //013 //016 //021 022 //023 024 //029 030 031 //032 033 034 //048 //052 //060 061 062 //069 070 071 //083
             {
                 MessageBox.Show("Doesn't exist in target game.");
             }
@@ -4152,14 +4152,31 @@ namespace PKHeX
                     TB_MetLevel.Text = "36";
 
                 }
-                if (species == "Magnemite") //081
+                if (species == "Magnemite" || species == "Magneton") //081 082
                 {
                     CB_GameOrigin.Text = "OR";
                     CB_MetLocation.Text = "Route 110";
                     TB_MetLevel.Text = "6";
 
                 }
-
+                if (species == "Doduo" || species == "Dodrio") //084 085
+                {
+                    CB_GameOrigin.Text = "OR";
+                    CB_MetLocation.Text = "Safari Zone";
+                    TB_MetLevel.Text = "15";
+                }
+                if (species == "Seel") //086
+                {
+                    CB_GameOrigin.Text = "OR";
+                    CB_MetLocation.Text = "Route 125";
+                    TB_MetLevel.Text = "30";
+                }
+                if (species == "Dewgong") //087
+                {
+                    CB_GameOrigin.Text = "OR";
+                    CB_MetLocation.Text = "Shoal Cave";
+                    TB_MetLevel.Text = "34";
+                }
 
                 CAL_MetDate.Value = DateTime.Today;
 
