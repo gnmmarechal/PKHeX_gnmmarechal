@@ -6,6 +6,8 @@ Pokémon X/Y/OR/AS SAV/PKX Editor based on PKHeX (https://github.com/kwsch/PKHeX
 Some current PKHeX features might be unavailable. This is because I don't update the core PKHeX code to follow the original program.
 WC6 to PK6 conversion is not available, as that's a more recent feature. I may add it later, after finishing the Location Fixer, or just take the new source code and paste my changes over it. GSPKHeX is used best for regular genning. WC6->PK6 will have to be done with the official PKHeX.
 
+Also, I'm aware there are significantly better ways to write the code. Mine may be the worst, but it gets the job done for me. I'll eventually rewrite the whole thing, and base myself on a more recent version of PKHeX.
+
 Supports Legality Checker (WIP):
 * Automatically fills location and met level of Pokémon (WIP)
 * Checks legal moves (Planned)
