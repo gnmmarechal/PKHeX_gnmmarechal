@@ -4125,6 +4125,19 @@ namespace PKHeX
                     TB_MetLevel.Text = "5";
 
                 }
+                if (species == "Geodude") //074
+                {
+                    CB_GameOrigin.Text = "OR";
+                    CB_MetLocation.Text = "Granite Cave";
+                    TB_MetLevel.Text = "10";
+
+                }
+                if (species == "Graveler") //075
+                {
+                    CB_GameOrigin.Text = "OR";
+                    CB_MetLocation.Text = "Lilycove City";
+                    TB_MetLevel.Text = "28";
+                }
 
                 CAL_MetDate.Value = DateTime.Today;
 
