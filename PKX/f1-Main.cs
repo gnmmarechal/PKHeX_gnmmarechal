@@ -4152,6 +4152,13 @@ namespace PKHeX
                     TB_MetLevel.Text = "36";
 
                 }
+                if (species == "Magnemite") //081
+                {
+                    CB_GameOrigin.Text = "OR";
+                    CB_MetLocation.Text = "Route 110";
+                    TB_MetLevel.Text = "6";
+
+                }
 
 
                 CAL_MetDate.Value = DateTime.Today;
