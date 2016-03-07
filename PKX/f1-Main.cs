@@ -4138,6 +4138,13 @@ namespace PKHeX
                     CB_MetLocation.Text = "Lilycove City";
                     TB_MetLevel.Text = "28";
                 }
+                if (species == "Ponyta") //077
+                {
+                    CB_GameOrigin.Text = "OR";
+                    CB_MetLocation.Text = "Route 112";
+                    TB_MetLevel.Text = "16";
+
+                }
 
                 CAL_MetDate.Value = DateTime.Today;
 
