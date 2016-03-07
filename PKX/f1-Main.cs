@@ -4132,7 +4132,7 @@ namespace PKHeX
                     TB_MetLevel.Text = "10";
 
                 }
-                if (species == "Graveler") //075
+                if (species == "Graveler" || species == "Golem") //075 076
                 {
                     CB_GameOrigin.Text = "OR";
                     CB_MetLocation.Text = "Lilycove City";
