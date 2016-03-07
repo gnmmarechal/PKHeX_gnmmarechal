@@ -4145,6 +4145,13 @@ namespace PKHeX
                     TB_MetLevel.Text = "16";
 
                 }
+                if (species == "Slowpoke" || species == "Slowbro") //079 080
+                {
+                    CB_GameOrigin.Text = "OR";
+                    CB_MetLocation.Text = "Mirage Cave";
+                    TB_MetLevel.Text = "36";
+
+                }
 
 
                 CAL_MetDate.Value = DateTime.Today;
