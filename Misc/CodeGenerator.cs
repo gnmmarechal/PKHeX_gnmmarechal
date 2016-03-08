@@ -394,5 +394,10 @@ namespace PKHeX
             { returnArray = data; Close(); }
             else { Util.Error("Invalid code pasted (Length)"); }
         }
+
+        private void CodeGenerator_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

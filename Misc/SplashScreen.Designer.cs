@@ -52,6 +52,7 @@
             this.label2.Size = new System.Drawing.Size(114, 13);
             this.label2.TabIndex = 1;
             this.label2.Text = "Gnmmarechal\'s Edition";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // pictureBox1
             // 

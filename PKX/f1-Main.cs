@@ -853,9 +853,9 @@ namespace PKHeX
             populateFields(buff);
             {
                 //Now using my own personal details
-                TB_OT.Text = "Mario";
-                TB_TID.Text = 44120.ToString(); 
-                TB_SID.Text = "08293";
+                TB_OT.Text = "PKHEXGS"; //Mario
+                TB_TID.Text = 44124.ToString(); //44120
+                TB_SID.Text = "08233"; //08293
                 CB_Species.SelectedIndex = 1;
                 CB_GameOrigin.SelectedIndex = 0;
                 CB_Language.SelectedIndex = 0;

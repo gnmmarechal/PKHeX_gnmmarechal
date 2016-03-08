@@ -305,6 +305,7 @@
             this.Name = "CodeGenerator";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "CodeGenerator";
+            this.Load += new System.EventHandler(this.CodeGenerator_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
