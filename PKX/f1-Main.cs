@@ -4263,10 +4263,82 @@ namespace PKHeX
         private void randomizeOTToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Random rnd = new Random();
-            int tidrnd = rnd.Next(10000, 65536);
-            int sidrnd = rnd.Next(10000, 65536);
-            TB_TID.Text = tidrnd.ToString();
-            TB_SID.Text = sidrnd.ToString();
+            int tidrnd = rnd.Next(0, 65536);
+            int sidrnd = rnd.Next(0, 65536);
+            if (tidrnd == 0)
+            {
+                TB_TID.Text = "00000";
+            }
+            else
+            {
+                if (tidrnd <= 9)
+                {
+                    TB_TID.Text = "0000" + tidrnd.ToString();
+                }
+                else
+                { 
+                    if (tidrnd <= 99)
+                    {
+                        TB_TID.Text = "000" + tidrnd.ToString();
+                    }
+                    else
+                    {
+                        if (tidrnd <= 999)
+                        {
+                            TB_TID.Text = "00" + tidrnd.ToString();
+                        }
+                        else
+                        {
+                            if (tidrnd <= 9999)
+                            {
+                                TB_TID.Text = "0" + tidrnd.ToString();
+                            }
+                            else
+                            {
+                                TB_TID.Text = tidrnd.ToString();
+                            }
+                        }
+                    }
+                    
+                }
+            }
+            if (sidrnd == 0)
+            {
+                TB_SID.Text = "00000";
+            }
+            else
+            {
+                if (sidrnd <= 9)
+                {
+                    TB_SID.Text = "0000" + sidrnd.ToString();
+                }
+                else
+                {
+                    if (sidrnd <= 99)
+                    {
+                        TB_SID.Text = "000" + sidrnd.ToString();
+                    }
+                    else
+                    {
+                        if (sidrnd <= 999)
+                        {
+                            TB_SID.Text = "00" + sidrnd.ToString();
+                        }
+                        else
+                        {
+                            if (sidrnd <= 9999)
+                            {
+                                TB_SID.Text = "0" + sidrnd.ToString();
+                            }
+                            else
+                            {
+                                TB_SID.Text = sidrnd.ToString();
+                            }
+                        }
+                    }
+
+                }
+            }
             string nameot;
             int namernd = rnd.Next(0, 37);
                 string[] namech = new string[] { "Mario", "Luigi", "May", "Brendan", "Gold", "Red", "Blue", "Midori", "Green", "Oak", "John", "Smith", "Jesus", "Smeaisagod", "Calvin", "Hobbes", "SuperPoke", "Pokemon", "PokePoke", "Mia", "Nia", "Dude", "Coolguy", "Senpai", "Mary", "Peach", "Window", "Gamerz", "Luv", "Lux", "Lex", "Lix", "Mao", "Miku", "Hatsune", "Ren", "Len" } ;
