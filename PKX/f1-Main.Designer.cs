@@ -231,11 +231,7 @@
             this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.loadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openBulbapediaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.metLocationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.eggToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.locationFixerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.oRASToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.xYToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.randomizeOTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Menu_Options = new System.Windows.Forms.ToolStripMenuItem();
             this.Menu_Language = new System.Windows.Forms.ToolStripMenuItem();
             this.CB_MainLanguage = new System.Windows.Forms.ToolStripComboBox();
@@ -350,7 +346,6 @@
             this.dragout = new System.Windows.Forms.PictureBox();
             this.L_QR = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.randomizeOTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabMain.SuspendLayout();
             this.Tab_Main.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Label_IsShiny)).BeginInit();
@@ -2710,7 +2705,6 @@
             this.finishUpToolStripMenuItem,
             this.saveLoadOTToolStripMenuItem,
             this.openBulbapediaToolStripMenuItem,
-            this.metLocationToolStripMenuItem,
             this.randomizeOTToolStripMenuItem});
             this.Menu_Tools.Name = "Menu_Tools";
             this.Menu_Tools.Size = new System.Drawing.Size(47, 20);
@@ -2780,14 +2774,14 @@
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
             this.saveToolStripMenuItem.Text = "Save";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
             // loadToolStripMenuItem
             // 
             this.loadToolStripMenuItem.Name = "loadToolStripMenuItem";
-            this.loadToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.loadToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
             this.loadToolStripMenuItem.Text = "Load";
             this.loadToolStripMenuItem.Click += new System.EventHandler(this.loadToolStripMenuItem_Click);
             // 
@@ -2798,42 +2792,12 @@
             this.openBulbapediaToolStripMenuItem.Text = "Open Bulbapedia";
             this.openBulbapediaToolStripMenuItem.Click += new System.EventHandler(this.openBulbapediaToolStripMenuItem_Click);
             // 
-            // metLocationToolStripMenuItem
+            // randomizeOTToolStripMenuItem
             // 
-            this.metLocationToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.eggToolStripMenuItem,
-            this.locationFixerToolStripMenuItem});
-            this.metLocationToolStripMenuItem.Name = "metLocationToolStripMenuItem";
-            this.metLocationToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
-            this.metLocationToolStripMenuItem.Text = "Met Location";
-            // 
-            // eggToolStripMenuItem
-            // 
-            this.eggToolStripMenuItem.Name = "eggToolStripMenuItem";
-            this.eggToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
-            this.eggToolStripMenuItem.Text = "Egg";
-            this.eggToolStripMenuItem.Click += new System.EventHandler(this.eggToolStripMenuItem_Click);
-            // 
-            // locationFixerToolStripMenuItem
-            // 
-            this.locationFixerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.oRASToolStripMenuItem,
-            this.xYToolStripMenuItem});
-            this.locationFixerToolStripMenuItem.Name = "locationFixerToolStripMenuItem";
-            this.locationFixerToolStripMenuItem.Size = new System.Drawing.Size(147, 22);
-            this.locationFixerToolStripMenuItem.Text = "Location Fixer";
-            // 
-            // oRASToolStripMenuItem
-            // 
-            this.oRASToolStripMenuItem.Name = "oRASToolStripMenuItem";
-            this.oRASToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
-            this.oRASToolStripMenuItem.Text = "OR/AS";
-            // 
-            // xYToolStripMenuItem
-            // 
-            this.xYToolStripMenuItem.Name = "xYToolStripMenuItem";
-            this.xYToolStripMenuItem.Size = new System.Drawing.Size(109, 22);
-            this.xYToolStripMenuItem.Text = "X/Y";
+            this.randomizeOTToolStripMenuItem.Name = "randomizeOTToolStripMenuItem";
+            this.randomizeOTToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
+            this.randomizeOTToolStripMenuItem.Text = "Randomize OT";
+            this.randomizeOTToolStripMenuItem.Click += new System.EventHandler(this.randomizeOTToolStripMenuItem_Click);
             // 
             // Menu_Options
             // 
@@ -2850,7 +2814,7 @@
             this.Menu_Language.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.CB_MainLanguage});
             this.Menu_Language.Name = "Menu_Language";
-            this.Menu_Language.Size = new System.Drawing.Size(152, 22);
+            this.Menu_Language.Size = new System.Drawing.Size(139, 22);
             this.Menu_Language.Text = "Language";
             // 
             // CB_MainLanguage
@@ -2865,14 +2829,14 @@
             this.Menu_About.Name = "Menu_About";
             this.Menu_About.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.B)));
             this.Menu_About.ShowShortcutKeys = false;
-            this.Menu_About.Size = new System.Drawing.Size(152, 22);
+            this.Menu_About.Size = new System.Drawing.Size(139, 22);
             this.Menu_About.Text = "A&bout PKHeX";
             this.Menu_About.Click += new System.EventHandler(this.mainMenuAbout);
             // 
             // Menu_Unicode
             // 
             this.Menu_Unicode.Name = "Menu_Unicode";
-            this.Menu_Unicode.Size = new System.Drawing.Size(152, 22);
+            this.Menu_Unicode.Size = new System.Drawing.Size(139, 22);
             this.Menu_Unicode.Text = "Toggle Font";
             this.Menu_Unicode.Click += new System.EventHandler(this.mainMenuUnicode);
             // 
@@ -4218,13 +4182,6 @@
             this.L_QR.Visible = false;
             this.L_QR.Click += new System.EventHandler(this.clickQR);
             // 
-            // randomizeOTToolStripMenuItem
-            // 
-            this.randomizeOTToolStripMenuItem.Name = "randomizeOTToolStripMenuItem";
-            this.randomizeOTToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
-            this.randomizeOTToolStripMenuItem.Text = "Randomize OT";
-            this.randomizeOTToolStripMenuItem.Click += new System.EventHandler(this.randomizeOTToolStripMenuItem_Click);
-            // 
             // Form1
             // 
             this.AllowDrop = true;
@@ -4668,11 +4625,6 @@
         private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem loadToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem openBulbapediaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem metLocationToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem eggToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem locationFixerToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem oRASToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem xYToolStripMenuItem;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button3;

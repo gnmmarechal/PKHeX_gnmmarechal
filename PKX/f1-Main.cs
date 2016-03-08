@@ -4356,6 +4356,11 @@ namespace PKHeX
 
         }
 
+        private void locationFixerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void openBulbapediaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Process.Start("http://bulbapedia.bulbagarden.net/");
