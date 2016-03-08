@@ -4235,7 +4235,7 @@ namespace PKHeX
                         }
                         TB_MetLevel.Text = "40";
                     }
-                    if (species == "Hitmonlee" || species == "Hitmonchan" || species == "Tyrogue") //106 107 236
+                    if (species == "Hitmonlee" || species == "Hitmonchan" || species == "Tyrogue") //106 107 236 
                     {
                         CB_GameOrigin.Text = "OR";
                         CB_MetLocation.Text = "Route 112";
