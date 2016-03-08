@@ -4343,8 +4343,8 @@ namespace PKHeX
                 }
             }
             string nameot;
-            int namernd = rnd.Next(0, 37);
-                string[] namech = new string[] { "Mario", "Luigi", "May", "Brendan", "Gold", "Red", "Blue", "Midori", "Green", "Oak", "John", "Smith", "Jesus", "Smeaisagod", "Calvin", "Hobbes", "SuperPoke", "Pokemon", "PokePoke", "Mia", "Nia", "Dude", "Coolguy", "Senpai", "Mary", "Peach", "Window", "Gamerz", "Luv", "Lux", "Lex", "Lix", "Mao", "Miku", "Hatsune", "Ren", "Len" } ;
+            int namernd = rnd.Next(0, 43);
+                string[] namech = new string[] { "Arthur", "Artur", "Melinda", "Bill", "Steve", "Linus", "Mario", "Luigi", "May", "Brendan", "Gold", "Red", "Blue", "Midori", "Green", "Oak", "John", "Smith", "Jesus", "Smeaisagod", "Calvin", "Hobbes", "SuperPoke", "Pokemon", "PokePoke", "Mia", "Nia", "Dude", "Coolguy", "Senpai", "Mary", "Peach", "Window", "Gamerz", "Luv", "Lux", "Lex", "Lix", "Mao", "Miku", "Hatsune", "Ren", "Len" } ;
             nameot = namech[namernd];
             TB_OT.Text = nameot;
 
