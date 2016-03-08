@@ -4268,6 +4268,8 @@ namespace PKHeX
             if (tidrnd == 0)
             {
                 TB_TID.Text = "00000";
+                MessageBox.Show("Congratulations! You had a 1/65536 chance of getting this number!");
+
             }
             else
             {
@@ -4305,6 +4307,7 @@ namespace PKHeX
             if (sidrnd == 0)
             {
                 TB_SID.Text = "00000";
+                MessageBox.Show("Congratulations! You had a 1/65536 chance of getting this number!");
             }
             else
             {
