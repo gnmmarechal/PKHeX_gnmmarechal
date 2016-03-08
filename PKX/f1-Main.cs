@@ -4255,6 +4255,32 @@ namespace PKHeX
 
         }
 
+        private void Menu_Tools_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void randomizeOTToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Random rnd = new Random();
+            int tidrnd = rnd.Next(10000, 100000);
+            int sidrnd = rnd.Next(10000, 100000);
+            TB_TID.Text = tidrnd.ToString();
+            TB_SID.Text = sidrnd.ToString();
+            string nameot;
+            int namernd = rnd.Next(0, 22);
+                string[] namech = new string[] { "Mario", "Luigi", "May", "Brendan", "Gold", "Red", "Blue", "Midori", "Green", "Oak", "John", "Smith", "Jesus", "Smeaisagod", "Calvin", "Hobbes", "SuperPoke", "Pokemon", "PokePoke", "Mia", "Nia", "Dude" } ;
+            nameot = namech[namernd];
+            TB_OT.Text = nameot;
+
+            
+        }
+
+        private void TB_TID_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
+        }
+
         private void openBulbapediaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Process.Start("http://bulbapedia.bulbagarden.net/");
