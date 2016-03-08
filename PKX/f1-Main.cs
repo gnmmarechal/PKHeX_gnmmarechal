@@ -3992,7 +3992,7 @@ namespace PKHeX
                 }
                 else
                 {
-                    if (species == "Kakuna" || species == "Beedrill" || species == "Pidgeotto" || species == "Pidgeot") //014 015 017 018
+                    if (species == "Kakuna" || species == "Beedrill" || species == "Pidgeotto" || species == "Pidgeot" || species == "Exeggcute" || species == "Exeggutor" || species == "Cubone" || species == "Marowak" || species == "Lickitung") //014 015 //017 018 //102 103 //104 105 //108
                     {
                         CB_GameOrigin.Text = "OR";
                         CB_MetLocation.Text = "Safari Zone";
@@ -4222,6 +4222,55 @@ namespace PKHeX
                         TB_MetLevel.Text = "13";
 
                     }
+                    if (species == "Electrode") //101
+                    {
+                        if (CB_GameOrigin.Text == "AS")
+                        {
+                            CB_MetLocation.Text = "Team Aqua Hideout";
+                        }
+                        else
+                        {
+                            CB_GameOrigin.Text = "OR";
+                            CB_MetLocation.Text = "Team Magma Hideout";
+                        }
+                        TB_MetLevel.Text = "40";
+                    }
+                    if (species == "Hitmonlee" || species == "Hitmonchan" || species == "Tyrogue") //106 107 236
+                    {
+                        CB_GameOrigin.Text = "OR";
+                        CB_MetLocation.Text = "Route 112";
+                        TB_MetLevel.Text = "16";
+
+                    }
+                    if (species == "Koffing" || species == "Weezing") //109 110
+                    {
+                        if (CB_GameOrigin.Text == "AS")
+                        {
+                            TB_MetLevel.Text = "15";
+
+                        }
+                        else
+                        {
+                            CB_GameOrigin.Text = "OR";
+                            TB_MetLevel.Text = "8";
+                        }
+                        CB_MetLocation.Text = "Fiery Path";
+                    }
+                    if (species == "Rhyhorn") //111
+                    {
+                        CB_GameOrigin.Text = "OR";
+                        CB_MetLocation.Text = "Safari Zone";
+                        TB_MetLevel.Text = "28";
+                    }
+
+
+                    /*
+                    //Test code, might be used in future versions.
+                    // pokes[number,name,game,location,level] --> this will allow me to make the code simpler with a single array. Although that still isn't the best option.
+                    string[, , , ,] pokes = new string[, , , ,] { {01, "Bulbasaur", 0, 0, 0}};
+
+                    */
+                    
 
 
                     CAL_MetDate.Value = DateTime.Today;
