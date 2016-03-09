@@ -4274,7 +4274,19 @@ namespace PKHeX
                         CB_MetLocation.Text = "Mirage Forest";
                         TB_MetLevel.Text = "36";
                     }
-
+                    if (species == "Horsea" || species == "Seadra") //116 117
+                    {
+                        CB_GameOrigin.Text = "OR";
+                        CB_MetLocation.Text = "Route 130";
+                        if (species == "Horsea")
+                        {
+                            TB_MetLevel.Text = "30";
+                        }
+                        else
+                        {
+                            TB_MetLevel.Text = "40";
+                        }
+                    }
 
                     /*
                     //Test code, might be used in future versions.
