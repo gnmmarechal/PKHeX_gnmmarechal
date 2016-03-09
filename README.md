@@ -1,6 +1,8 @@
 PKHeX: Gnmmarechal's Edition
 =====
 
+THIS WILL BE RENDERED OBSOLETE BY THE NEXT PKHEX RELEASE --> My code is crap, and the official PKHeX will have most of these (if not all) features. Anyway. I'll eventually fork PKHeX properly.
+
 Pokémon X/Y/OR/AS SAV/PKX Editor based on PKHeX (https://github.com/kwsch/PKHeX)
 
 Some current PKHeX features might be unavailable. This is because I don't update the core PKHeX code to follow the original program.
