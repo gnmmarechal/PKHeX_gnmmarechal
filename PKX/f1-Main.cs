@@ -3992,7 +3992,7 @@ namespace PKHeX
                 }
                 else
                 {
-                    if (species == "Kakuna" || species == "Beedrill" || species == "Pidgeotto" || species == "Pidgeot" || species == "Exeggcute" || species == "Exeggutor" || species == "Cubone" || species == "Marowak" || species == "Lickitung" || species == "Kangaskhan") //014 015 //017 018 //102 103 //104 105 //108 //115
+                    if (species == "Kakuna" || species == "Beedrill" || species == "Pidgeotto" || species == "Pidgeot" || species == "Exeggcute" || species == "Exeggutor" || species == "Cubone" || species == "Marowak" || species == "Lickitung" || species == "Kangaskhan" || species == "Mr. Mime" || species == "Scyther") //014 015 //017 018 //102 103 //104 105 //108 //115 //122 //123
                     {
                         CB_GameOrigin.Text = "OR";
                         CB_MetLocation.Text = "Safari Zone";
@@ -4286,6 +4286,24 @@ namespace PKHeX
                         {
                             TB_MetLevel.Text = "40";
                         }
+                    }
+                    if (species == "Goldeen") //118
+                    {
+                        CB_GameOrigin.Text = "OR";
+                        CB_MetLocation.Text = "Route 102";
+                        TB_MetLevel.Text = "5";
+                    }
+                    if (species == "Seaking") //119
+                    {
+                        CB_GameOrigin.Text = "OR";
+                        CB_MetLocation.Text = "Safari Zone";
+                        TB_MetLevel.Text = "30";
+                    }
+                    if (species == "Staryu" || species == "Starmie" ) //120 121
+                    {
+                        CB_GameOrigin.Text = "OR";
+                        CB_MetLocation.Text = "Lilycove City";
+                        TB_MetLevel.Text = "40";
                     }
 
                     /*
