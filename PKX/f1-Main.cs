@@ -3992,7 +3992,7 @@ namespace PKHeX
                 }
                 else
                 {
-                    if (species == "Kakuna" || species == "Beedrill" || species == "Pidgeotto" || species == "Pidgeot" || species == "Exeggcute" || species == "Exeggutor" || species == "Cubone" || species == "Marowak" || species == "Lickitung") //014 015 //017 018 //102 103 //104 105 //108
+                    if (species == "Kakuna" || species == "Beedrill" || species == "Pidgeotto" || species == "Pidgeot" || species == "Exeggcute" || species == "Exeggutor" || species == "Cubone" || species == "Marowak" || species == "Lickitung" || species == "Kangaskhan") //014 015 //017 018 //102 103 //104 105 //108 //115
                     {
                         CB_GameOrigin.Text = "OR";
                         CB_MetLocation.Text = "Safari Zone";
@@ -4256,11 +4256,23 @@ namespace PKHeX
                         }
                         CB_MetLocation.Text = "Fiery Path";
                     }
-                    if (species == "Rhyhorn") //111
+                    if (species == "Rhyhorn" || species == "Rhydon") //111 112
                     {
                         CB_GameOrigin.Text = "OR";
                         CB_MetLocation.Text = "Safari Zone";
                         TB_MetLevel.Text = "28";
+                    }
+                    if (species == "Chansey" || species == "Happiny") //113 440
+                    {
+                        CB_GameOrigin.Text = "OR";
+                        CB_MetLocation.Text = "Mirage Forest";
+                        TB_MetLevel.Text = "36";
+                    }
+                    if (species == "Tangela") //114
+                    {
+                        CB_GameOrigin.Text = "OR";
+                        CB_MetLocation.Text = "Mirage Forest";
+                        TB_MetLevel.Text = "36";
                     }
 
 
